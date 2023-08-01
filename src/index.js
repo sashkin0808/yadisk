@@ -5,7 +5,7 @@ import './css/styles.css';
 
 const MAX_FILE_NUMBER = 100;
 const CLIENT_ID = "808109afb46b43d4a2ab57464feafd0a";
-const REDIRECT_URL = "http://localhost:3001/";
+const REDIRECT_URL = "https://sashkin0808.github.io/yadisk/";
 const AUTH_TOKEN = `https://oauth.yandex.ru/authorize?response_type=token&client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URL}`;
 // Yandex.Disc API
 const API_FOLDERS = "https://cloud-api.yandex.net/v1/disk/resources?path=";
